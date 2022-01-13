@@ -61,6 +61,7 @@ p {
   position: relative;
   width: 60rem;
   max-width: 80%;
+  min-width: 80%;
   margin: 0 auto;
 }
 
