@@ -7,7 +7,13 @@ body {
     font-family: "Source Sans Pro", sans-serif;
     
   }
+  h1 {
+    display: block;
+    font-size: 2em;
   
+    font-weight: bold;
+    color: #FFF;
+}
   .header {      
     display: flex;
     justify-content: space-between;
@@ -80,6 +86,7 @@ body {
     font-size: 4rem;
     margin: 0;
     color: green;
+  
 
   }
   
@@ -117,7 +124,7 @@ body {
   .features {
     
     padding: 60px 45px;
-    background-image: url('bballvids/istockphoto-499754024-170667a.jpg');
+    background-color: black;
     
     background-position: center;
     background-size: cover;  
@@ -132,7 +139,7 @@ body {
   }
   
   .card {
-    box-shadow: 0 4px 8px 0 rgba(204, 109, 0, 0.2);
+    box-shadow: 0 4px 8px 0 rgb(255, 255, 255);
     max-width: 300px;
     margin: auto;
     text-align: center;

@@ -27,7 +27,7 @@ body {
 h1 span {
   font-family: "Satisfy", cursive;
   font-size: 4rem;
-  color: #262626;
+  color: white;
 }
 
 p,
@@ -50,7 +50,7 @@ p {
   font-family: "Arvo", serif;
   position: relative;
   overflow: hidden;
-  background-image: url('bballvids/istockphoto-499754024-170667a.jpg');
+ background-color: black;
   background-size: 100% 249.5vh;
   background-position: top;
 }
@@ -86,7 +86,7 @@ p {
   width: auto;
   margin-top: -1.875rem;
   padding: 1rem;
-  color: #232323;
+  color: white;
   font-weight: bold;
   font-size: 3rem;
   border-radius: 3px;
@@ -104,8 +104,8 @@ p {
 /* on hover, add a black bg color with a little bit see-through */
 .prev:hover,
 .next:hover {
-  background-color: #000; /* fallback color */
-  background-color: rgba(0, 0, 0, 0.8);
+  background-color: white; /* fallback color */
+  background-color: green;
   color: gold;
   text-decoration: none;
 }
@@ -131,4 +131,5 @@ p {
 .active {
   background-color: gold;
 }
+
 
